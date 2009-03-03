@@ -9,11 +9,7 @@ import org.springframework.beans.factory.xml.ParserContext;
 
 import org.w3c.dom.Element;
 
-import org.apache.log4j.Logger;
-
 public class CamelNamespaceHandler extends org.apache.camel.spring.handler.CamelNamespaceHandler {
-
-    private final static Logger log = Logger.getLogger(CamelNamespaceHandler.class);
 
     public void init() {
         super.init();
